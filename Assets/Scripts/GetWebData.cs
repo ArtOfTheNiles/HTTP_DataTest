@@ -119,11 +119,12 @@ public class GetWebData : MonoBehaviour
         }
         else
         {
+            float viewHeight = Screen.height -40f; //gotta have -some- boundaries.
             float displayRatio = 1f;
             displayTexture = ((DownloadHandlerTexture)www.downloadHandler).texture;
-            if (displayTexture.height > 700f)
+            if (displayTexture.height > viewHeight)
             {
-                displayRatio = 700f / displayTexture.height;
+                displayRatio = viewHeight / displayTexture.height;
             }
             Sprite temp = Sprite.Create(displayTexture, new Rect(0f,0f,displayTexture.width,displayTexture.height ), new Vector2(displayTexture.width/2, displayTexture.height/2));
             image.overrideSprite = temp;
