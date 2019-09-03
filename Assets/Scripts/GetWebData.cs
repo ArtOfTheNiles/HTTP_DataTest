@@ -36,6 +36,7 @@ public class GetWebData : MonoBehaviour
     };
 
     public TextMeshProUGUI urlDisplayText;
+    public Sprite connectionErrorDisplayImage;
 
     private List<bool> urlViewed = new List<bool>();
     private int numEntries;
@@ -113,6 +114,8 @@ public class GetWebData : MonoBehaviour
         if (www.isNetworkError || www.isHttpError)
         {
             Debug.Log(www.error);
+            urlDisplayText.text = ("<b><color=#DB002A>Connection Error! | Destination URL: </b></color>" + url);
+            image.overrideSprite = connectionErrorDisplayImage;
         }
         else
         {

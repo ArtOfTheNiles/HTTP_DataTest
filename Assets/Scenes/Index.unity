@@ -1313,6 +1313,8 @@ MonoBehaviour:
   - https://instagram.fdtw1-1.fna.fbcdn.net/vp/da16e43312e38ab52e7f24a15b656bf1/5E0952FF/t51.2885-15/sh0.08/e35/c0.28.1440.1440/s640x640/68976388_661210684392336_2605290772633589556_n.jpg?_nc_ht=instagram.fdtw1-1.fna.fbcdn.net
   - https://instagram.fdtw1-1.fna.fbcdn.net/vp/7cb7c18ee5c247f03ec528d12259e42a/5E0BF2A1/t51.2885-15/sh0.08/e35/c0.120.960.960a/s640x640/69053731_934179126936132_3871226860683499965_n.jpg?_nc_ht=instagram.fdtw1-1.fna.fbcdn.net
   urlDisplayText: {fileID: 1233126036}
+  connectionErrorDisplayImage: {fileID: 21300000, guid: 7bcec4f3599b0b147b2ff358c0298e3f,
+    type: 3}
 --- !u!114 &1988829573
 MonoBehaviour:
   m_ObjectHideFlags: 0
